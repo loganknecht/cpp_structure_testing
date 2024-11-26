@@ -8,7 +8,6 @@
                 "-fdiagnostics-color=always",
                 "-g", // Generate source-level debug information
                 "${file}",
-                // "${workspaceFolder}/*.cpp",
                 "-o", // Write output to <file>
                 "${fileDirname}/${fileBasenameNoExtension}",
                 "-lstdc++"
